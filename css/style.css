@@ -83,9 +83,6 @@ h6 {
 }
 
 header {
-  background: url('../img/hero1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: 450px;
 }
@@ -242,6 +239,11 @@ header {
   background: #FAF5ED;
 }
 
+.list-section.no-background {
+  background: white;
+  padding: 0;
+}
+
 .list-section ol, .list-section ul {
   padding-left: 17px;
   margin-bottom: 0;
@@ -268,14 +270,19 @@ header {
 
 .profile-photo {
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 1px solid white;
 }
 
-.raising .profile-photo {
-  /* background */
+.profile-photo-title::after {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid #FFF;
+  height: 10px;
+  width: 50px;
+  margin: 0 auto;
 }
 
 .small-text {
@@ -320,6 +327,11 @@ header {
 
 footer {
   padding-bottom: 20px;
+}
+
+.footer-cta {
+  padding-top: 5px;
+  border-top: 2px solid #7F7F7F;
 }
 
 @media (min-width: 1440px) {
