@@ -138,7 +138,8 @@ header {
 }
 
 .logo img {
-  width: 150px;
+  width: 144px;
+  height: 40px;
 }
 
 #logo-header {
@@ -169,6 +170,10 @@ header {
 
 .running .hero-title {
   width: 560px;
+}
+
+.best-foot .hero-title {
+  width: 530px;
 }
 
 .main {
