@@ -176,6 +176,10 @@ header {
   width: 530px;
 }
 
+.mobile-medicine .hero-title {
+  width: 520px
+}
+
 .main {
   position: relative;
   background:white;
