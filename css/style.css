@@ -180,6 +180,10 @@ header {
   width: 520px
 }
 
+.launching .hero-title {
+  width: 425px;
+}
+
 .main {
   position: relative;
   background:white;
@@ -344,6 +348,10 @@ footer {
 .footer-cta {
   padding-top: 5px;
   border-top: 2px solid #7F7F7F;
+}
+
+.bg-grey {
+  background: #F5F5F5;
 }
 
 @media (min-width: 1440px) {
