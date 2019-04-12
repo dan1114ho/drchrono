@@ -184,6 +184,11 @@ header {
   width: 425px;
 }
 
+.under-roof .hero-title {
+  width: 570px;
+  padding-top: 60px;
+}
+
 .main {
   position: relative;
   background:white;
