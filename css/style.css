@@ -354,6 +354,80 @@ footer {
   background: #F5F5F5;
 }
 
+.medical-claim {
+  font-size: 14px;
+}
+
+.medical-claim .section-row {
+  border-bottom: 1px solid #7f7f7f;
+}
+
+.medical-claim .section-row.no-border {
+  border-bottom: none;
+}
+
+.medical-claim .vs-table {
+  width: 100%;
+}
+
+.medical-claim .vs-table tbody tr td {
+  padding: 5px;
+  border: 1px solid #7f7f7f;
+  font-size: 14px;
+  text-align: center;
+}
+
+.medical-claim .vs-table tbody tr td:first-child {
+  text-align: left;
+}
+
+.medical-claim .vs-table tbody tr td.head-drchrono {
+  background: #4F7395;
+  color: white;
+}
+
+.medical-claim .vs-table tbody tr td.drchrono-cell {
+  background: #EDF1F4;
+  color: #FD4A5B;
+}
+
+.bill-tables {
+  width: 100%;
+}
+
+.bill-tables tbody tr td {
+  padding: 5px;
+  background: #F3FAFA;
+  font-size: 12px;
+}
+
+.bill-tables tbody tr td:first-child {
+  border-right: 1px solid #5C5D5F;
+}
+
+.bill-tables tbody tr.total-line {
+  border-top: 1px solid #5C5D5F;
+}
+
+.bill-tables tbody tr.total-line td {
+  background: white
+}
+
+.bill-tables.after tr td:last-child {
+  color: #FF3A4C;
+}
+
+.bill-tables.after tr.total-line td:last-child {
+  color: white;
+  background: #4F7395;
+}
+
+.introduction-section {
+  margin-top: 50px;
+  background: #F3FAFA;
+  padding: 50px;
+}
+
 @media (min-width: 1440px) {
   .container {
       width: 1280px;
