@@ -560,6 +560,12 @@ footer {
   font-size: 20px;
 }
 
+.top-medical .first-line {
+  font-size: 18px;
+  border-top: 1px solid #008B29;
+  border-bottom: 1px solid #008B29;
+}
+
 @media (min-width: 1440px) {
   .container {
       width: 1280px;
