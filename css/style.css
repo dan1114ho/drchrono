@@ -261,8 +261,8 @@ header {
 }
 
 .list-section.no-background {
-  background: white;
-  padding: 0;
+  background: white !important;
+  padding: 0 !important;
 }
 
 .list-section ol, .list-section ul {
@@ -564,6 +564,33 @@ footer {
   font-size: 18px;
   border-top: 1px solid #008B29;
   border-bottom: 1px solid #008B29;
+}
+
+.data-transfer .list-section {
+  background: #F2F3F4;
+  border-radius: 10px;
+  padding: 10px 20px;;
+}
+
+.data-transfer .data-format-table thead th {
+  background: #4280C2;
+  color: white;
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.data-transfer .data-format-table thead th:first-child {
+  border-right: 1px solid #757678;
+  width: 180px;
+}
+
+.data-transfer .data-format-table tbody tr td {
+  padding: 2px 5px;
+  border: 1px solid #757678;
+}
+
+.data-transfer .data-format-table tbody tr td:last-child {
+  background: #F2F3F4;
 }
 
 @media (min-width: 1440px) {
